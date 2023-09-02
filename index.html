@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        main {
-            background-color: beige;
-            color: pink;
-        }
-    </style>
+    <title>Gabo</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <!-- CSS (Forma 1). style inline -->
-    <header style="background-color: lightgray;"> 
-
-        <div class="logo">
-            <img id="logo" src="./images/logo.png" alt="Logo: Gabriel García Márquez">
-        </div>
+    <!-- CSS (Forma 1): style inline -->
+    <header>
         <div class="menu-principal">
             <a href="#">Categorias</a>
-            <a href="#">Biografía</a>
+            <a href="#">Biografia</a>
             <a href="#">Premios</a>
         </div>
-        </header>
-        <main>
+        <div class="logo">
+            <img id="logo" src="./images/logo.png" alt="Logo: Gabriel ">
+        </div>
+        
+    </header>
+    <main class="main">
+        <div class="banner">
+             <h1 class="banner-title">Gabriel García Márquez</h1>
+        </div>
         Aquí va el contenido principal
-        <!-- JavaScript (Forma 1) javascript inline-->
-        <button onclick="saluda()">Saludame</button>
-        </main>
-        <aside>
-            Aquí van los widgets de la página
-            <!-- JavaScript (Forma 2): JavaScript Embebido-->
-            <script>
-                alert( 'Bienvenidos')
-            </script>
-        </aside>
-        <footer>
-        Aquí van los widgets de la página
-        Aquí va el pie de página
-        </footer> 
+    </main>
+    <footer class="footer">
+        Aqui van los Widgets de la pagina
+        Aqui va el pie de pagina
+    </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

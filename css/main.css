@@ -1,19 +1,19 @@
-<body> {
+body {
     margin: 0;
-
 }
 
-
-
-
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
 img#logo {
     width: 8rem;
-    padding: .5rem;
+    padding: 0.5rem;
 }
-
-
-
 
 a {
     text-decoration: none;
@@ -22,3 +22,33 @@ a {
     margin: 0.5rem;
     color: black;
     font-weight: 500;
+}
+
+.main {
+    background-color: #b4c2dd;
+    color: white;
+}
+
+.banner {
+    background-image: url( '../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-title {
+    margin: 4rem;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 3rem;
+    width: 25%;
+}
+
+
+footer {
+    background-color: pink;
+}
