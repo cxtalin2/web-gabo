@@ -9,21 +9,33 @@
 <body>
     <!-- CSS (Forma 1): style inline -->
     <header>
-        <div class="menu-principal">
-            <a href="#">Categorias</a>
-            <a href="#">Biografia</a>
-            <a href="#">Premios</a>
-        </div>
+        <nav class="menu-principal">
+            <ul class="menu-principal">
+                <li class="menu-item"><a href="#">Categorías</a></li>
+                <li class="menu-item"><a href="#">Biografía</a></li>
+                <li class="menu-item"><a href="#">Premios</a></li>
+            </ul>
+
+        </nav>
         <div class="logo">
             <img id="logo" src="./images/logo.png" alt="Logo: Gabriel ">
         </div>
         
+        
     </header>
     <main class="main">
-        <div class="banner">
+        <section class="banner">
              <h1 class="banner-title">Gabriel García Márquez</h1>
-        </div>
-        Aquí va el contenido principal
+        </section>
+
+        <section class="obras">
+            <ul class="sections">
+                <li class="section-item"><a href="#" class="text-anchor">Cuentos</a></li>
+                <li class="section-item"><a href="#" class="text-anchor">No Ficción</a></li>
+                <li class="section-item"><a href="#" class="text-anchor">Novelas</a></li>
+            </ul>
+       </section>
+
     </main>
     <footer class="footer">
         Aqui van los Widgets de la pagina

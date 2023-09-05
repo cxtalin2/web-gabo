@@ -15,6 +15,13 @@ img#logo {
     padding: 0.5rem;
 }
 
+ul.menu-principal {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     font-size: 1.2rem;
@@ -27,6 +34,10 @@ a {
 .main {
     background-color: #b4c2dd;
     color: white;
+}
+
+section.obras {
+    padding: 2rem 0;
 }
 
 .banner {
@@ -47,6 +58,33 @@ a {
     font-size: 3rem;
     width: 25%;
 }
+
+ul.sections {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    gap: 4rem;
+}
+
+li.section-item {
+    width: 5rem;
+    height: 5rem;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+a.text-anchor {
+    font-size: .55rem;
+    padding: 1.2rem 0.8rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
 
 
 footer {
