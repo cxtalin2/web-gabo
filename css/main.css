@@ -78,15 +78,52 @@ li.section-item {
     align-items: flex-start;
 }
 
+table {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 2rem;
+}
+
+h2.premios-title {
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+} 
+
+.date {
+    border: 2px solid blue;
+    background: orange;
+    padding: 0.7rem 1rem;
+    font-weight: bold;
+}
+
+section.Premios {
+    color: black;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    padding-left: 2rem;
+}
+
 a.text-anchor {
-    font-size: .55rem;
+    font-size: 0.65rem;
     padding: 1.2rem 0.8rem;
     margin: 0;
     text-transform: uppercase;
 }
-
-
+.primer-premio {
+    height: 6rem;
+}
 
 footer {
     background-color: pink;
+}
+
+p.copyright {
+    margin: 0;
+    padding: 16px;
+    text-align: center;
 }
